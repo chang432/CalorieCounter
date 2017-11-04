@@ -79,7 +79,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         segWorth = (Double(x)/Double(rec_calories))
         segCount = segWorth * 60.0;
         
-        for index in 0..<Int(segCount) {
+        for _ in 0..<Int(segCount) {
             total_seg += "|"
         }
         return total_seg
